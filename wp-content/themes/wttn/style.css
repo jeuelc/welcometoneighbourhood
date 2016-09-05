@@ -80,7 +80,7 @@ body {
 }
 
 #content-1 {
-    background: url('images/header-background.jpg') center center;
+    background: #ffffff url('images/header-background.jpg') center center;
     background-size:cover;
 }
 

@@ -19,4 +19,5 @@
                 <div class="reload-icon-holder">
                     <img src="<?php bloginfo('template_directory')?>/images/recycle-icon.png">
                 </div>
+                <button class="signmeup">SIGN ME UP</button>
             </div>

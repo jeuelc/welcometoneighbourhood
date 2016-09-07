@@ -5,12 +5,12 @@
         var bannerContentHeight = $(".banner-1-content").outerHeight();
         var bannerContentMarginTop = (windowHeight - bannerContentHeight)/2;
         var mapHeight = (windowWidth * 540 )/1920;
-        console.log("taas "+bannerContentHeight);
+
         $(".full-height").each(function(index) {
             var elementId = $(this).attr("id");
             if(elementId == "content-1") {
                 $(this).css("height", windowHeight);
-            } else if(elementId == "content-4") {
+            } else if(elementId == "content-5") {
                 $(this).css("height", mapHeight);
             }/*else {
                 $(this).css("min-height", windowHeight);
@@ -19,8 +19,8 @@
         $(".banner-1-content").find("img").css("margin-top", bannerContentMarginTop);
         
         var images = Array("<?php bloginfo('template_directory');?>/images/header-background.jpg",
-               "<?php bloginfo('template_directory');?>/images/header-background2.jpg",
-               "<?php bloginfo('template_directory');?>/images/header-background3.jpg");
+               "<?php bloginfo('template_directory');?>/images/header-bg-02.jpg",
+               "<?php bloginfo('template_directory');?>/images/header-bg-03.jpg");
         var currimg = 0;
 
 
@@ -44,5 +44,16 @@
 
         }
         setTimeout(loadimg,20000);
+        
+        var distance = $('.signmeup.first').offset().top;
+
+        $(window).scroll(function() {
+            if ( $(window).scrollTop() >= distance ) {
+                $("#header > .signmeup").show();
+            } else {
+                $("#header > .signmeup").hide();
+            }
+            
+        });
     });
 </script>

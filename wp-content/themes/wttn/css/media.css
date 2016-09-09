@@ -1,0 +1,45 @@
+@media screen and (max-width: 415px) {
+    #header { display:none; }
+    .services-holder {
+        width:98%;
+        margin-top:10px;
+    }
+    .service { 
+        width:100%; 
+        padding:0;
+    }
+    
+    .service p, .services-holder p { padding:3px; }
+    .emphasized-text {
+        padding-top:10px;
+        font-size:24px;
+    }
+    .emphasized-price { font-size:38px; }
+    .emphasized-price div { font-size:14px; }
+    .special-service {
+        width:90%;
+    }
+    .special-service .line-1 { font-size:24px; }
+    .special-service .line-2 { font-size:16px; }
+    .special-service .line-3 { font-size:14px; }
+    .gift { width:90%; }
+    .gift-text-content { display:none; }
+    body.withmap {
+        background-size:350%;
+    }
+    .footer-links, .social-media-links, .copyright {
+        float:none;
+        width:100%;
+        text-align:center;
+        clear:both;
+    }
+    #footer { 
+        height:auto;
+        line-height:36px;
+        width:100%;
+        background:#ffffff;
+    }
+}
+@media screen and (max-width: 321px) {
+    .reload-icon-holder, .three-rounds-holder { width:15%; }
+}

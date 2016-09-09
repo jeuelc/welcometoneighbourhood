@@ -10,6 +10,7 @@
                 <div class="footer-links">
                     <a href="#">TERMS</a>|<a href="#">PRIVACY</a>|<a href="#">CONTACT</a>
                 </div>
+                <div class="clear-both"></div>
             </div>
         </div> <!-- end of wrapper -->
         <?php include_once("js/custom-wttn-js.php"); ?>

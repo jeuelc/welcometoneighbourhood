@@ -16,7 +16,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {display: block;}
 
 
-body {
+body.withmap {
     background: url('images/map.jpg') no-repeat center bottom 62px;
     background-size:contain;
     background-attachment:fixed;
@@ -326,3 +326,170 @@ body {
     color:#404040;
     text-decoration:none;
 }
+
+/* signup-page */
+#sign-up {
+    text-align:center;
+    position:relative;
+}
+
+.sign-up-content { padding-top:52px; }
+
+.colored-logo-holder img {
+    width:230px;
+}
+
+.sign-up-head-label-holder {
+    width:50%;
+    margin:auto;
+    text-align:center;
+    border-bottom:1px solid #bfbfbf;
+    background: url('images/icon-07-signup-01.png') no-repeat;
+    background-size: contain;
+    background-position:25% center;
+}
+
+h2.sign-up-label {
+    font-family: 'Amatic SC', cursive;
+    font-size: 26px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ff4b32;
+    font-weight: bold;
+}
+h3.sign-up-sub-label {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: #bfbfbf;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom:10px;
+}
+
+.sign-up-form-container {
+    font-family: 'Amatic SC', cursive;
+    padding-top:18px;
+    width:50%;
+    margin:auto;
+}
+
+.sign-up-form-container .input-holder {
+    width:90%;
+    margin:auto;
+    padding-bottom:16px;
+}
+.sign-up-form-container .input-holder label.black{ color:#000000; }
+.sign-up-form-container .input-holder label {
+    color: #bfbfbf;
+    font-size:18px;
+    clear:both;
+    font-weight:bold;
+    display:block;
+}
+.sign-up-form-container .input-holder input {
+    width:90%;
+    text-align:center;
+    padding:6px 0px;
+    font-size:12px;
+}
+
+.state-input-holder {
+    width:35%;
+    float:left;
+    text-align:left;
+}
+.suburb-input-holder {
+    width:50%;
+    float:left;
+    text-align:left;
+}
+.add-suburb-input-holder { 
+    width:15%;
+    float:right;
+    text-align:right;
+}
+.suburb-input-fields-folder { width:90%; margin:auto; }
+.suburb-input-fields-folder select {
+    width:90%;
+    padding:6px 0;
+}
+
+#add-suburb-btn.disabled { background:#e5e5e5; color:#bfbfbf; }
+#add-suburb-btn.enabled { background:#ff4b32; color:#ffffff; }
+
+#add-suburb-btn {
+    font-family: 'Amatic SC', cursive;
+    width:100%;
+    font-size:18px;
+    text-align:center;
+    border:none;
+    padding:4px 0;
+}
+.submit-sign-up-wrapper {
+    border-bottom:1px solid #bfbfbf;
+    margin:auto;
+    width:50%;
+    text-align:center;
+    padding:10px 0;
+}
+.submit-sign-up-holder {
+    width:100%;    
+    clear:both;
+    position:absolute;
+    bottom:0;
+}
+
+.submit-signup-button {
+    background:#ff4b32;
+    color:#FFFFFF;
+    font-family: 'Amatic SC', cursive;
+    font-size:22px;
+    border:none;
+    padding: 5px 36px;
+}
+.month-input-holder {
+    width: 33%;
+    float:left;
+    text-align:left;
+}
+.year-input-holder {
+    width: 33%;
+    float:left;
+    text-align:center;
+} 
+.cvv-input-holder {
+    width: 33%;
+    float:left;
+    text-align:right;
+}
+.address-state-input-holder {
+    width:50%;
+    float:left;
+    clear:left;
+    text-align:left;
+}
+.address-city-input-holder {
+    width:50%;
+    float:right;
+    clear:right;
+    text-align:right;
+}
+.input-holder img { width:50%; margin-top:10px; }
+
+#success-signup, #form-2, #form-3, .re-send-verification { display:none; }
+.re-send-verification {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color: #bfbfbf;
+    font-weight:bold;
+}
+.re-send-verification a {
+    text-decoration:none;
+    color:#ff4b32;
+    font-size:26px;
+}
+.success-image-holder img {
+    margin:20px auto;
+    width:60%;
+}
+/* signup-page end*/

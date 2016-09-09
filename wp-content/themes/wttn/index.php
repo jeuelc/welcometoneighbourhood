@@ -12,13 +12,6 @@
                 <button class="signmeup first">SIGN ME UP</button>
             </div>
         </div>
-        <!--<div class="banner-1-foot">
-            <div class="banner-1-actions">
-                <div class="banner-1-action how-it-works">HOW IT WORKS<img src="<?php bloginfo('template_directory');?>/images/question-mark-green-01.png"></div>
-                <div class="banner-1-action what-gifts">WHAT GIFTS CAN I SEND<img src="<?php bloginfo('template_directory');?>/images/question-mark-orange-01.png"></div>
-                <div class="banner-1-action contact">CONTACT</div>
-            </div>
-        </div>-->
     </div>
     <div id="content-2" class="full-height">
         <div class="banner-2-header-holder">HOW IT WORKS<img src="<?php bloginfo('template_directory');?>/images/question-mark-green-01.png"></div>
